@@ -1,3 +1,9 @@
+/*
+* Names: Angel Jadraque, Kristine Amarillo, Sanyiah Piang
+* This program outputs an order system application
+* implemented using the queue ADT.
+*/
+
 #include <iostream>
 #include <string.h>
 #include <limits>
