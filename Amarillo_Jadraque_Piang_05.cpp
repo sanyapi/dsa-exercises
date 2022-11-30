@@ -280,6 +280,8 @@ int main() {
 
                 if(!search(root, item)) {
                     cout << "Item " << item << " is NOT in the tree." << endl;
+                    pause();
+                    clear();
                 } else {
                     int count = countOccurence(root, item);
                     if(count > 1) {
