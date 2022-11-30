@@ -4,6 +4,7 @@
 * implemented using the queue ADT.
 */
 
+#include <bits/stdc++.h>
 #include <iostream>
 #include <string.h>
 #include <limits>
