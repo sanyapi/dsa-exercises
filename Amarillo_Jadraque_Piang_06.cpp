@@ -32,9 +32,9 @@ public:
 
 		cout << "\n";
 		map<T, bool> visited;	//Creates a map for visited nodes
-		stack<T> s;				//Creates a stack for the DFS values
+		stack<T> s;		//Creates a stack for the DFS values
 
-		s.push(srcNode);			//Pushes the source node into the stack
+		s.push(srcNode);		//Pushes the source node into the stack
 		visited[srcNode] = true;	//Marks the source node as visited
 
 		// While the stack is not empty,
@@ -63,11 +63,11 @@ public:
 
 		cout << "\n";
 		map<T, bool> visited;	//Creates a map for visited nodes
-		queue<T> q;				//Creates a queue for the BFS nodes
+		queue<T> q;		//Creates a queue for the BFS nodes
 
-		q.push(srcNode);			//Pushes the source node to the queue
+		q.push(srcNode);		//Pushes the source node to the queue
 		visited[srcNode] = true;	//Marks the source node as visited
-									//to avoid duplicates in the queue
+						//to avoid duplicates in the queue
 
 		//While the queue is not yet empty,
 		//this will remove the front node, print it,
@@ -96,9 +96,9 @@ public:
 	void searchDFS(T item, T srcNode) {
 
 		map<T, bool> visited;	//Creates a map for visited nodes
-		stack<T> s;				//Creates a stack for the DFS values
+		stack<T> s;		//Creates a stack for the DFS values
 
-		s.push(srcNode);			//Pushes the source node into the stack
+		s.push(srcNode);		//Pushes the source node into the stack
 		visited[srcNode] = true;	//Marks the source node as visited
 
 		// While the stack is not empty,
@@ -133,11 +133,11 @@ public:
 	void searchBFS(T item, T srcNode) {
 
 		map<T, bool> visited;	//Creates a map for visited nodes
-		queue<T> q;				//Creates a queue for the BFS nodes
+		queue<T> q;		//Creates a queue for the BFS nodes
 
-		q.push(srcNode);			//Pushes the source node to the queue
+		q.push(srcNode);		//Pushes the source node to the queue
 		visited[srcNode] = true;	//Marks the source node as visited
-									//to avoid duplicates in the queue
+						//to avoid duplicates in the queue
 
 		// While the queue is not yet empty,
 		// this loop will remove the front node, print it,
